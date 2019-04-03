@@ -1769,7 +1769,7 @@ class ImageAcquirer:
             pass
         except (
                 NotImplementedException, NoDataException,
-                InvalidBufferException
+                InvalidBufferException, InvalidHandleException
             ) as e:
             #self._logger.debug(e, exc_info=True)
             pass
